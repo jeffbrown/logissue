@@ -1,0 +1,15 @@
+plugins {
+    id 'groovy'
+    id 'application'
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation 'org.codehaus.groovy:groovy-all:2.5.4'
+    implementation 'ch.qos.logback:logback-classic:1.0.13'
+}
+
+mainClassName = 'logdemo.App'
